@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <!-- <meta name="theme-color" content="#000000" /> -->
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+    <!-- <link rel='stylesheet' href='./css/bootstrap.min.css'> -->
+
+
+    <style>
+        /* body{
+            padding-top:50px;
+        }
+        @media screen and (max-width: 768px) {
+    body { 
+        
+        padding-top: 50px; }
+        
+}*/
+        .customsty{ 
+
+
+            position: relative;
+            
+        }
+        .signin:hover{
+            cursor: pointer;
+        }
+
+        .signup:hover{
+            cursor:pointer;
+        }
+
+
+      .usecases{
+          
+          background-image: linear-gradient(-90deg, rgb(92,87,104), rgb(159,154,171));
+          color: white;
+      }
+
+      .usecases:hover{
+          
+          background-image: linear-gradient(-90deg, #cea0d6, #7326e0);
+          
+          color: white;
+      }
+
+      .usecases1{
+          
+          /* background-image: linear-gradient(-90deg, #cea0d6, #7326e0); */
+          /* background-image: linear-gradient(90deg,#dbdde0 10%,#a3a5a8 30%,#dbdde0 60%); */
+          animation : loading 2s infinite;
+          color: white;
+      }
+
+      /* @keyframes loading{
+          0% { background-image: linear-gradient(90deg,#dbdde0 10%,#a3a5a8 30%,#dbdde0 60%);}
+          50% {background-image: linear-gradient(90deg,#dbdde0 30%,#a3a5a8 40%,#dbdde0 30%);}
+          100% {background-image: linear-gradient(90deg,#dbdde0 60%,#a3a5a8 30%,#dbdde0 10%);}
+      } */
+      
+      /* input.searchform{
+          width:400px!important;
+      } */
+
+      .searchbtn{
+          /* border:1px tomato solid!important; */
+          background-color: #4f545b!important;
+          /* background-color: rgb(133, 236, 228)!important; */
+      }
+
+      .navstyle{
+          /* background-image:linear-gradient(90deg,rgb(183,168,181),rgb(235,231,235)); */
+          background-image:linear-gradient(90deg,#5342f4,#f441ee);
+          /* background-image:linear-gradient(90deg,#d4abf5,#f2caf7); Arpita's */
+          
+      }
+
+      .smallbanner{
+          background-image:linear-gradient(90deg,#6a5fa8,#a8a0d6);   
+          /* background-image:linear-gradient(90deg,#f8a5d8,#f3b8f5); Arpita's */
+      }
+
+      .navbrand{
+          border : 1px tomato solid;
+      }
+
+      .uploadbtn:hover{
+        color : #d1b132 !important;
+      }
+
+      .imgcls{
+          position:absolute;
+          z-index:-1;
+          background-size:contain;
+        
+          right:0;
+          bottom:0;
+          /* right:0; */
+          /* height:auto; */
+          /* width:auto; */
+          filter: blur(1px);
+          
+      }
+      .imgback{
+          
+      }
+      .back{
+          background: url('./images/back.jpg') no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          height:100%;
+      }
+      @media (min-width:1025px){
+          .searchform{
+              width:400px!important;
+              margin-left: 19rem!important;
+          }
+      }
+      @media (min-width:992px) and (max-width:1024.98px){
+          .searchform{
+              width:300px!important;
+              margin-left: 12rem!important;
+          }
+      }
+      @media (min-width: 768px) and (max-width:991.98px){ 
+          .searchform{
+              width:250px!important;
+              margin-left: 1rem!important;
+          }
+       }
+
+       @media (min-width: 576px) and (max-width:767.98) { 
+          .searchform{
+              width:150px!important;
+              margin-left: 1rem!important;
+          }
+       }
+      
+       /* @media (min-width: 576px) {
+          .searchform{
+              width:250px!important;
+              margin-left: 1rem!important;
+               
+          }
+       }*/
+      
+       @media (max-width: 575.98px){
+           .searchform{
+               width:170px!important;
+           }
+       }
+
+       .fixed-top{
+           position:fixed;
+           margin-left:0px;
+           margin-right:0px;
+       }
+
+       .inside{
+           padding-top:50px;
+       }
+      </style>
+
+    <title>Automation</title>
+
+    <script src='./js/jquery.js'></script>
+    <script src='./js/popper.min.js'></script>
+    <script src='./js/bootstrap.min.js'></script>
+  
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    
+    <div class='container-fluid'>
+    
+    <div class="inside"  id='page'>
+            
+            
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-12 d-block d-md-none text-center smallbanner ml-auto mr-auto">
+                    NJD
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light fluid justify-content-between navstyle">
+            <a class="navbar-brand d-none d-md-block navbrand px-2" href="#">NJD</a>
+            <form class="form-inline my-auto justify-content-between">
+                <div class="input-group">
+                    <input class="form-control form-control-md searchform" type="search" placeholder="Search..." aria-label="Search"    >
+                    <div class="input-group-append">
+                        <button class="btn searchbtn my-auto" type="submit"><img src="./images/search1.png" height="21px" width="30px"/></button>
+                    </div>
+                </div>
+            </form>
+            <button class="navbar-toggler ml-auto mr-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse  justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-md-5 pl-md-5" id="loginbutton">
+                    <li class="nav-item mr-2 mt-2">
+                        <img src="./images/notification.png" height="30px" width="30px" />
+                        <span class="font-weight-light d-inline d-md-none">Notifications</span>
+                    </li>
+                    <li class="nav-item dropdown profile mt-2">
+                        <img class="rounded-circle d-inline" src="./images/profile.jpg" height="30px" width="30px" />
+                        <a class="nav-link dropdown-toggle d-inline" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                            jennifer9292
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Profile</a>
+                            <a class="dropdown-item" href="#">Settings</a>
+                            <a class="dropdown-item" href="#">Privacy</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-outline-primary">Login In</button>
+                    </li>
+                </ul>
+                
+            </div>
+        </nav> -->
+
+        
+
+
+        
+            
+    
+    </div>
+    </div>
+
+    <script>
+            $(function () {
+                console.log('loaded');
+               $('[data-toggle="popover"]').popover()
+              })
+          </script>
+  <script>
+
+
+    //   console.log('Refreshed');
+            // var height = document.querySelector('.signin').offsetWidth;
+            // var signinwidth = document.querySelector('.signin').offsetWidth;
+            // var signspacewidth = document.querySelector('.signspace').offsetWidth;  
+            // var totalspace = signinwidth + signspacewidth;
+
+            // var bbar = document.querySelector('.bbar');
+
+            // var signinform = document.getElementById('signinform');
+            // var signupform = document.getElementById('signupform');
+
+
+            // // console.log(signinwidth+" "+signspacewidth);
+
+            
+
+            // document.querySelector('.signin').addEventListener('click',function(){
+                
+            //     signinform.classList.toggle("d-none");
+            //     signupform.classList.toggle("d-none");
+            //     let initialw = document.querySelector('.bbar').style.left;
+
+            //     initialw = parseInt(initialw.substring(0,initialw.indexOf('px')));
+
+            //     let from;
+            //     if(initialw == 0)
+            //         from = 0;
+            //     else
+            //         from = totalspace;
+
+            //     let to =  0;
+
+            //     let slideri = from;
+
+            //     console.log(initialw+" "+from+" " +to);
+            //     function stopSlider(){
+            //         clearInterval(sliderInterval);
+            //         // console.log('Slider Stopped');
+            //     }
+
+            //     var sliderInterval = setInterval(function(){
+            //         // console.log(slideri);
+            //         bbar.style.left = slideri + 'px';
+            //         if((slideri-5)<to){
+            //             // slider
+            //             bbar.style.left = '0px';
+            //             slideri=from;
+                
+            //             stopSlider();
+            //         }
+            //         if(from>to){
+            //             slideri -= 5;
+            //         }else{
+            //             slideri += 5;
+            //         }
+
+
+            //     },1);
+
+                
+
+
+            
+            // });
+
+            // document.querySelector('.signup').addEventListener('click',function(){
+                
+            //     signinform.classList.toggle("d-none");
+            //     signupform.classList.toggle("d-none");
+
+            //     let from = 0;
+            //     let to =  totalspace;
+
+            //     let slideri = 0;
+            //     // console.log(from+" "+to);
+            //     function stopSlider(){
+            //         clearInterval(sliderInterval);
+            //         // console.log('Slider Stopped');
+            //     }
+
+            //     var sliderInterval = setInterval(function(){
+            //         // console.log(from+" "+to+" "+slideri);
+            //         bbar.style.left = slideri + 'px';
+                    
+
+            //         if((slideri+5)>to){
+            //             // slider
+            //             slideri=to;
+            //             bbar.style.left = totalspace + 'px';
+            //             // console.log('Inside sign up, sliderstopped');
+            //             stopSlider();
+            //         }
+            //         if(from>to){
+            //             slideri -= 5;
+            //         }else{
+            //             slideri += 5;
+            //         }
+
+
+            //     },1);
+            // });
+  
+  </script>
+  </body>
+</html>

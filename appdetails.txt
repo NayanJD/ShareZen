@@ -1,0 +1,172 @@
+11bjg2ouje7ce85qi0gklj1pvk
+
+https://automation.auth.ap-south-1.amazoncognito.com/login?response_type=token&client_id=11bjg2ouje7ce85qi0gklj1pvk&redirect_uri=https://8qtmwmqq63.execute-api.ap-south-1.amazonaws.com/corstest/testresource
+
+https://8qtmwmqq63.execute-api.ap-south-1.amazonaws.com/corstest/testresource?code=d1c9c620-742a-40f3-a43c-afde8e927ebe
+
+https://8qtmwmqq63.execute-api.ap-south-1.amazonaws.com/corstest/testresource#id_token=eyJraWQiOiJzQkRUdmNFTEhMMk1ta3VKelwvNnhjQmlWSFZtN1V0WjRGRWs5aUJJcVpCcz0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoicDRaMXZiblFYS0NDaGhydkJuLWxrUSIsInN1YiI6ImM3NDE3ZGVkLWQ5YTctNDJmZS1hNWNiLWZhZWM4ZWIzZDVkOCIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9hcC1zb3V0aC0xX2ZDTThXY0J0WSIsInBob25lX251bWJlcl92ZXJpZmllZCI6ZmFsc2UsImNvZ25pdG86dXNlcm5hbWUiOiJjNzQxN2RlZC1kOWE3LTQyZmUtYTVjYi1mYWVjOGViM2Q1ZDgiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJuYXlhbjE5OTYiLCJhdWQiOiIxMWJqZzJvdWplN2NlODVxaTBna2xqMXB2ayIsImV2ZW50X2lkIjoiNDdlMTM0NTgtNWJhYS0xMWU5LTkwYzMtN2JjNWVkMzQwYWRkIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE1NTQ5MTIyNTIsInBob25lX251bWJlciI6Iis5MTg0NzM5NTQ2NzMiLCJleHAiOjE1NTQ5MTU4NTIsImlhdCI6MTU1NDkxMjI1MiwiZW1haWwiOiJkYXN0bXNAZ21haWwuY29tIn0.cPCIcg2qfjLRGeSNOQ1LwuUGy0M6e7GRpEI3-CyhnBLKLsXnKfRztoSgHVB_tpl3AV2gkp_h_XwEYbax1Jjfo8zPOoahiEfn08vDQycpEMwMSSh_XemYBPijVNEFsqi2iwhZ8kBt1LR9OIO9yJBD-XyfJjwB7Kg99_TieYNX1ZyDfC3gbCCZbMS64n-_hJYxx8VqzmJmp4BUboY-GQfoFrqcIzKtEd1laLL1605V-NXTSH_CnVruHPJgRvzmd8uBJUNoGvHZQ-buOKYNLXNaYy6NibUXnn3iAintU4b1D84hTLrB3ulPE7XAnBcEi9yL0tEsz_FAABLlqTlH_haNfQ&access_token=eyJraWQiOiJ2QkdjZDJ2RUhseG9LWEJmV2VIOG1hN3lXc2RIUFpBYVRUajA3dHhQOHpzPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJjNzQxN2RlZC1kOWE3LTQyZmUtYTVjYi1mYWVjOGViM2Q1ZDgiLCJldmVudF9pZCI6IjQ3ZTEzNDU4LTViYWEtMTFlOS05MGMzLTdiYzVlZDM0MGFkZCIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4gcGhvbmUgb3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhdXRoX3RpbWUiOjE1NTQ5MTIyNTIsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb21cL2FwLXNvdXRoLTFfZkNNOFdjQnRZIiwiZXhwIjoxNTU0OTE1ODUyLCJpYXQiOjE1NTQ5MTIyNTIsInZlcnNpb24iOjIsImp0aSI6ImU4Yjg4N2E5LTY0OTctNGI3Ni1hNWRlLWE5NWQ5YjJhMDRmOCIsImNsaWVudF9pZCI6IjExYmpnMm91amU3Y2U4NXFpMGdrbGoxcHZrIiwidXNlcm5hbWUiOiJjNzQxN2RlZC1kOWE3LTQyZmUtYTVjYi1mYWVjOGViM2Q1ZDgifQ.OWWXTmAb6WJ-IM8TBNtLW8MDIyITkzXrvNX4fVfVblSek-84Fub9hWhaHvYW1xCtKag0Rn96S8tcfbC18fFcl2chILUnQfy7oWpDIUtEIywRaRg05o_ClXnLTKoKef6G-127z77ZWPViYTYjqyrdN_hS_AslolAm0WE_G5jSzYwkWzSRaxSoiegjIB4j48eyyYQ_2-8er1YYBiuGNsEb-q4nWcIZToYS9zuQmncEirgliWoLOXPxYgbRv4es_R9EX41EdOHlLoKS-loJB_tMZtoXJ43JLdnj6TrEc8FyygWi2jgKS30SCbXtSxflsGXi0CNyX7JCEpaRZIX6Sc9tgQ&expires_in=3600&token_type=Bearer
+
+
+email
+phn number
+preferred username
+password
+
+
+AKIAXDPIPHWHGMBCJKZR
+vjimT12lbAxYj/gMY2qUmVKrVp2s8NtSxMSc1+97
+
+
+cropperjs
+camenjs
+
+ec2-13-234-37-205.ap-south-1.compute.amazonaws.com
+
+mysql -h automation.cdnmtuh5awzx.ap-south-1.rds.amazonaws.com -P 3306 -u root -p qwerty12#
+
+Developer_Nayan
+AKIAXDPIPHWHAQAUJWSJ
+Ifsd9tP/WJw+bbCnF291gVbia/WVj0UPB7kZQmOe
+
+create table Likedata(
+email varchar(50) NOT NULL,
+postid varchar(60) NOT NULL,
+userlike integer NOT NULL DEFAULT 0,
+userunlike integer NOT NULL DEFAULT 0,
+PRIMARY KEY (email,postid),
+FOREIGN KEY (email) REFERENCES Users(email),
+FOREIGN KEY (postid) REFERENCES Posts(postid));
+
+
+ALTER TABLE glpi_ticketsatisfactions ALTER COLUMN comment BIGINT NOT NULL;
+
+DELIMITER //
+CREATE PROCEDURE create_user
+(IN email varchar(50),IN username varchar(50))
+BEGIN
+
+DECLARE errno INT;
+DECLARE EXIT HANDLER FOR SQLEXCEPTION
+BEGIN
+GET CURRENT DIAGNOSTICS CONDITION 1 errno = MYSQL_ERRNO;
+SELECT errno AS MYSQL_ERROR;
+ROLLBACK;
+END;
+
+START TRANSACTION;
+
+INSERT INTO Users VALUES(email,username,unix_timestamp());
+
+COMMIT;
+
+END //
+DELIMITER ;
+
+
+DELIMITER //
+CREATE PROCEDURE create_post
+(IN postid varchar(60),IN email varchar(50))
+BEGIN
+
+DECLARE errno INT;
+DECLARE EXIT HANDLER FOR SQLEXCEPTION
+BEGIN
+GET CURRENT DIAGNOSTICS CONDITION 1 errno = MYSQL_ERRNO;
+SELECT errno AS MYSQL_ERROR;
+ROLLBACK;
+END;
+
+START TRANSACTION;
+
+INSERT INTO Posts VALUES(postid,0,0,unix_timestamp(),email);
+
+COMMIT;
+
+END //
+DELIMITER ;
+
+
+DELIMITER //
+CREATE PROCEDURE create_like
+(IN email varchar(50),IN postid varchar(60),IN userlike int,IN userunlike int)
+BEGIN
+
+DECLARE errno INT;
+DECLARE EXIT HANDLER FOR SQLEXCEPTION
+BEGIN
+GET CURRENT DIAGNOSTICS CONDITION 1 errno = MYSQL_ERRNO;
+SELECT errno AS MYSQL_ERROR;
+ROLLBACK;
+END;
+
+START TRANSACTION;
+
+INSERT INTO Likedata VALUES(email,postid,userlike,userunlike,unix_timestamp());
+select @likes := likes, @unlikes := unlikes from Posts where postid = postid;
+update Posts set likes := @likes + 1, unlikes := @unlikes + 1 where postid = postid;
+
+COMMIT;
+
+END //
+DELIMITER ;
+
+
+DELIMITER //
+
+CREATE PROCEDURE add_like(IN email varchar(50),IN postid varchar(60),IN ul int,IN unl int)
+BEGIN
+    START TRANSACTION;
+
+    set @cnt = (select count(*) from Likedata where email = email and postid = postid);
+    
+    select @likes := likes,@unlikes := unlikes from Posts where postid=postid;
+    IF @cnt > 0 THEN
+        
+
+	select @userlike := userlike,@userunlike := userunlike from Likedata where email=email and postid=postid;
+
+	update Likedata set userlike=ul, userunlike=unl where email=email and postid=postid;
+
+	IF @userlike = unl and @userlike = 1 THEN
+	    update Posts set likes=@likes - 1, unlikes=@unlikes + 1 where postid=postid;
+	    select 'inside userlike';
+	ELSEIF @userunlike = ul and @userunlike = 1 THEN
+	    update Posts set likes=@likes + 1, unlikes=@unlikes - 1 where postid=postid;
+	    select 'inside userunlike';
+	END IF;
+	
+    ELSE
+        insert into Likedata values (email,postid,userlike,userunlike,unix_timestamp());
+	update Posts set likes=@likes + ul, unlikes=@unlikes + unl where postid = postid;
+    END IF;
+
+    COMMIT;
+END //
+
+DELIMITER ;
+
+
+DELIMITER //
+CREATE PROCEDURE delete_post
+(IN e varchar(50),IN p varchar(60))
+BEGIN
+
+DECLARE errno INT;
+DECLARE EXIT HANDLER FOR SQLEXCEPTION
+BEGIN
+GET CURRENT DIAGNOSTICS CONDITION 1 errno = MYSQL_ERRNO;
+SELECT errno AS MYSQL_ERROR;
+ROLLBACK;
+END;
+
+START TRANSACTION;
+
+delete from Posts where email=e and postid=p;
+
+COMMIT;
+
+END //
+DELIMITER ;
+
+
+insert into Posts values("id",0,0,unix_timestamp(),"mail");
